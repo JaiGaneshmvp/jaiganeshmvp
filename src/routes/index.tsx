@@ -8,8 +8,6 @@ import Hero from "@/components/portfolio/Hero";
 import About from "@/components/portfolio/About";
 import Skills from "@/components/portfolio/Skills";
 import Projects from "@/components/portfolio/Projects";
-import Experience from "@/components/portfolio/Experience";
-import Education from "@/components/portfolio/Education";
 import Certifications from "@/components/portfolio/Certifications";
 import Resume from "@/components/portfolio/Resume";
 import Achievements from "@/components/portfolio/Achievements";
@@ -23,12 +21,12 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Alex Carter — Full Stack, Java and MERN Stack Developer. Projects, experience, skills and ways to get in touch.",
+          "Portfolio of Alex Carter — Full Stack, Java and MERN Stack Developer. Projects, skills and ways to get in touch.",
       },
       { property: "og:title", content: "Alex Carter — Full Stack Developer" },
       {
         property: "og:description",
-        content: "Full Stack | Java | MERN Stack Developer portfolio with projects and experience.",
+        content: "Full Stack | Java | MERN Stack Developer portfolio with projects and skills.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -68,8 +66,6 @@ function Index() {
       <About />
       <Skills />
       <Projects />
-      <Experience />
-      <Education />
       <Certifications />
       <Resume />
       <Achievements />
