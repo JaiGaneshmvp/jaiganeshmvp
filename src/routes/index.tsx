@@ -17,16 +17,16 @@ import Footer from "@/components/portfolio/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Carter — Full Stack Developer Portfolio" },
+      { title: "Jai's Portfolio" },
       {
         name: "description",
         content:
-          "Portfolio of Alex Carter — Full Stack, Java and MERN Stack Developer. Projects, skills and ways to get in touch.",
+          "Portfolio of Jai — Full Stack and Java Developer. Projects, skills and ways to get in touch.",
       },
-      { property: "og:title", content: "Alex Carter — Full Stack Developer" },
+      { property: "og:title", content: "Jai's Portfolio" },
       {
         property: "og:description",
-        content: "Full Stack | Java | MERN Stack Developer portfolio with projects and skills.",
+        content: "Full Stack | Java Developer portfolio with projects and skills.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },

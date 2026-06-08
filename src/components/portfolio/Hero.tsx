@@ -7,7 +7,6 @@ import avatar from "@/assets/avatar.png";
 const titles = [
   "Full Stack Developer",
   "Java Developer",
-  "MERN Stack Developer",
 ];
 
 function Typewriter() {
@@ -72,7 +71,7 @@ export default function Hero() {
             Available for work
           </motion.span>
           <h1 className="mt-5 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-            Hi, I'm <span className="text-gradient">Alex Carter</span>
+            Hi, I'm <span className="text-gradient">Jai Ganesh</span>
           </h1>
           <p className="mt-4 text-xl font-medium md:text-2xl">
             <Typewriter />
@@ -148,7 +147,7 @@ export default function Hero() {
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               className="absolute -bottom-4 -left-4 rounded-2xl glass px-3 py-2 text-xs"
             >
-              <span className="text-gradient-accent font-semibold">5+ yrs</span>{" "}
+              <span className="text-gradient-accent font-semibold">Fresher</span>{" "}
               <span className="text-muted-foreground">coding</span>
             </motion.div>
           </motion.div>

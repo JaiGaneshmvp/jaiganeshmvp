@@ -35,7 +35,7 @@ const projects: Project[] = [
   {
     title: "E-Commerce Website",
     description: "Modern storefront with Stripe, cart and admin panel.",
-    long: "MERN stack e-commerce with Redux Toolkit, Stripe checkout, product reviews, wishlists and a complete admin console.",
+    long: "Modern e-commerce with Redux Toolkit, Stripe checkout, product reviews, wishlists and a complete admin console.",
     image: ecom,
     tech: ["MongoDB", "Express", "React", "Node"],
     github: "https://github.com",

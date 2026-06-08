@@ -19,10 +19,10 @@ export default function Resume() {
               <FiFileText size={26} />
             </div>
             <div className="flex-1">
-              <h3 className="text-xl font-semibold">Alex Carter — Full Stack Developer</h3>
+              <h3 className="text-xl font-semibold">Jai Ganesh  — Full Stack Developer</h3>
               <p className="mt-2 text-muted-foreground">
                 Results-driven developer with proven experience building production-grade web
-                applications using Java/Spring Boot and the MERN stack. Strong fundamentals in DSA,
+                applications using Java/Spring Boot and modern web technologies. Strong fundamentals in DSA,
                 clean architecture and product thinking. Looking for opportunities to ship meaningful
                 software with thoughtful teams.
               </p>

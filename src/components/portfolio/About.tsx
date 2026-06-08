@@ -19,10 +19,10 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 const stats = [
-  { label: "Projects Completed", value: 42, suffix: "+" },
-  { label: "Technologies Learned", value: 25, suffix: "+" },
-  { label: "Certifications", value: 12, suffix: "" },
-  { label: "Problems Solved", value: 650, suffix: "+" },
+  { label: "Projects Completed", value: 4, suffix: "+" },
+  { label: "Technologies Learned", value: 9, suffix: "+" },
+  { label: "Certifications", value: 5, suffix: "" },
+  { label: "Problems Solved", value: 150, suffix: "+" },
 ];
 
 export default function About() {
@@ -48,10 +48,10 @@ export default function About() {
               continue learning and contribute to open source along the way.
             </p>
             <div className="grid gap-3 pt-4 sm:grid-cols-2">
-              <Info label="Education" value="B.Tech, Computer Science" />
-              <Info label="Location" value="Remote / India" />
-              <Info label="Experience" value="2+ years" />
-              <Info label="Languages" value="English, Hindi" />
+              <Info label="Education" value="B.E, Computer Science And Engineering" />
+              <Info label="Location" value="Remote, Chennai, Coimbatore, Bangalore" />
+              <Info label="Experience" value="Fresher" />
+              <Info label="Languages" value="English, Tamil" />
             </div>
           </motion.div>
 

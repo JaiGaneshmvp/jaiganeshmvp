@@ -40,11 +40,11 @@ export default function Contact() {
   };
 
   const socials = [
-    { icon: FiGithub, href: "https://github.com", label: "GitHub" },
-    { icon: FiLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: SiLeetcode, href: "https://leetcode.com", label: "LeetCode" },
+    { icon: FiGithub, href: "https://github.com/JaiGaneshmvp", label: "GitHub" },
+    { icon: FiLinkedin, href: "https://www.linkedin.com/in/jai-ganesh-0242582a5/", label: "LinkedIn" },
+    { icon: SiLeetcode, href: "https://leetcode.com/u/JAIGANESH8933/", label: "LeetCode" },
     { icon: SiHackerrank, href: "https://hackerrank.com", label: "HackerRank" },
-    { icon: FiMail, href: "mailto:hello@example.com", label: "Email" },
+    { icon: FiMail, href: "mailto:jaiganeshmvp@gmail.com", label: "Email" },
   ];
 
   return (
@@ -64,11 +64,11 @@ export default function Contact() {
               get back within a day.
             </p>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:jaiganeshmvp@gmail.com"
               className="block glass rounded-2xl p-4 transition-colors hover:bg-white/10"
             >
               <div className="text-xs uppercase tracking-wider text-muted-foreground">Email</div>
-              <div className="text-gradient font-medium">hello@example.com</div>
+              <div className="text-gradient font-medium">jaiganeshmvp@gmail.com</div>
             </a>
             <div>
               <div className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
